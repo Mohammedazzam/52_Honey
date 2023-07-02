@@ -263,3 +263,36 @@ header.sticky {
   margin-bottom: 3rem;
 }
 /* End About */
+
+/* End Our Shop */
+.middle-text {
+  text-align: center;
+}
+.middle-text h4 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: var(--main-color);
+}
+.middle-text h2 {
+  font-size: var(--h2-font);
+}
+.shop-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px,auto));
+  gap: 2rem;
+  align-items: center;
+  margin-top: 4rem;
+}
+.row {
+  position: relative;
+  padding: 10px 35px 40px;
+  background: var(--other-color);
+  border-radius: 3rem;
+  -webkit-border-radius: 3rem;
+  -moz-border-radius: 3rem;
+  -ms-border-radius: 3rem;
+  -o-border-radius: 3rem;
+}
+.row img {}
+/* Start Our Shop */
