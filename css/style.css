@@ -294,5 +294,79 @@ header.sticky {
   -ms-border-radius: 3rem;
   -o-border-radius: 3rem;
 }
-.row img {}
+.row img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.50s ease;
+  -webkit-transition: transform 0.50s ease;
+  -moz-transition: transform 0.50s ease;
+  -ms-transition: transform 0.50s ease;
+  -o-transition: transform 0.50s ease;
+  cursor: pointer;
+}
+.row h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+  font-weight: 700;
+}
+.row p {
+  color: var(--second-color);
+  font-size: var(--p-font);
+  line-height: 30px;
+  margin-bottom: 1.1rem;
+}
+.in-text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.in-text .price h6 {
+  font-size: 17px;
+  color: var(--main-color);
+  font-weight: 600;
+}
+.in-text .s-btnn a{
+  display: inline-block;
+  padding: 9px 23px;
+  background-color: var(--bg-color);
+  color: var(--main-color);
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  border-radius: 3rem;
+  -webkit-border-radius: 3rem;
+  -moz-border-radius: 3rem;
+  -ms-border-radius: 3rem;
+  -o-border-radius: 3rem;
+  transition: all 0.50s ease;
+  -webkit-transition: all 0.50s ease;
+  -moz-transition: all 0.50s ease;
+  -ms-transition: all 0.50s ease;
+  -o-transition: all 0.50s ease;
+}
+.in-text .s-btnn a:hover {
+  background: var(--main-color);
+  color: var(--bg-color);
+  box-shadow: #ff9f0d 0px 1px 25px;
+}
+.top-icon {
+  position: absolute;
+  top: 30px;
+  left: 35px;
+}
+.top-icon i {
+  font-size: 22px;
+  color: var(--main-color);
+}
+.row-btn {
+  text-align: center;
+  margin-top: 6rem;
+}
+.row img:hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
 /* Start Our Shop */
