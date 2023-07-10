@@ -154,11 +154,11 @@ span {
   -moz-border-radius: 3rem;
   -ms-border-radius: 3rem;
   -o-border-radius: 3rem;
-  transition:all 0.50s ease ;
-  -webkit-transition:all 0.50s ease ;
-  -moz-transition:all 0.50s ease ;
-  -ms-transition:all 0.50s ease ;
-  -o-transition:all 0.50s ease ;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
 }
 .btn i {
   vertical-align: middle;
@@ -178,11 +178,11 @@ span {
   letter-spacing: 1px;
   border-bottom: 3px solid var(--main-color);
   color: var(--main-color);
-  transition: all 0.50s ease;
-  -webkit-transition: all 0.50s ease;
-  -moz-transition: all 0.50s ease;
-  -ms-transition: all 0.50s ease;
-  -o-transition: all 0.50s ease;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
 }
 .btn2:hover {
   transform: scale(1.1) translateX(12px);
@@ -193,8 +193,8 @@ span {
 }
 
 header.sticky {
-    padding: 12px 14%;
-    background: var(--other-color);
+  padding: 12px 14%;
+  background: var(--other-color);
 }
 /* End Home */
 
@@ -202,7 +202,7 @@ header.sticky {
 .container {
   padding: 30px 14% 70px;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, auto) );
+  grid-template-columns: repeat(auto-fit, minmax(300px, auto));
   gap: 2rem;
   text-align: center;
 }
@@ -229,11 +229,11 @@ header.sticky {
   color: var(--second-color);
   font-size: var(--p-font);
   letter-spacing: 1px;
-  transition: all 0.50s ease;
-  -webkit-transition: all 0.50s ease;
-  -moz-transition: all 0.50s ease;
-  -ms-transition: all 0.50s ease;
-  -o-transition: all 0.50s ease;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
 }
 .container-box a:hover {
   color: var(--main-color);
@@ -279,7 +279,7 @@ header.sticky {
 }
 .shop-content {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px,auto));
+  grid-template-columns: repeat(auto-fit, minmax(300px, auto));
   gap: 2rem;
   align-items: center;
   margin-top: 4rem;
@@ -297,11 +297,11 @@ header.sticky {
 .row img {
   width: 100%;
   height: auto;
-  transition: transform 0.50s ease;
-  -webkit-transition: transform 0.50s ease;
-  -moz-transition: transform 0.50s ease;
-  -ms-transition: transform 0.50s ease;
-  -o-transition: transform 0.50s ease;
+  transition: transform 0.5s ease;
+  -webkit-transition: transform 0.5s ease;
+  -moz-transition: transform 0.5s ease;
+  -ms-transition: transform 0.5s ease;
+  -o-transition: transform 0.5s ease;
   cursor: pointer;
 }
 .row h3 {
@@ -325,7 +325,7 @@ header.sticky {
   color: var(--main-color);
   font-weight: 600;
 }
-.in-text .s-btnn a{
+.in-text .s-btnn a {
   display: inline-block;
   padding: 9px 23px;
   background-color: var(--bg-color);
@@ -338,11 +338,11 @@ header.sticky {
   -moz-border-radius: 3rem;
   -ms-border-radius: 3rem;
   -o-border-radius: 3rem;
-  transition: all 0.50s ease;
-  -webkit-transition: all 0.50s ease;
-  -moz-transition: all 0.50s ease;
-  -ms-transition: all 0.50s ease;
-  -o-transition: all 0.50s ease;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
 }
 .in-text .s-btnn a:hover {
   background: var(--main-color);
@@ -374,7 +374,7 @@ header.sticky {
 /* Start Reviews */
 .review-content {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px , auto));
+  grid-template-columns: repeat(auto-fit, minmax(300px, auto));
   gap: 2rem;
   align-items: center;
   margin-top: 4rem;
@@ -419,9 +419,36 @@ header.sticky {
   letter-spacing: 1px;
   margin-bottom: 10px;
 }
-.ratings i{
+.ratings i {
   color: var(--main-color);
   font-size: 18px;
   margin-right: 5px;
 }
 /* End Reviews */
+
+/* Start Contact */
+.contact-contact {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.contact-img {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 4rem;
+  margin-bottom: 5rem;
+}
+.contact-img img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  cursor: pointer;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+}
+/* End Contact */
