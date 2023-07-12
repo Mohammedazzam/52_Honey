@@ -509,3 +509,23 @@ header.sticky {
   color: var(--main-color);
 }
 /* End Contact */
+
+/* Start Scroll Top */
+.scroll {
+  position: fixed;
+  bottom: 2.2rem;
+  border-top: 2rem;
+  right: 3.2rem;
+}
+.scroll i {
+  font-size: 22px;
+  color: var(--text-color);
+  background: var(--main-color);
+  padding: 10px;
+  border-radius: 2rem;
+  -webkit-border-radius: 2rem;
+  -moz-border-radius: 2rem;
+  -ms-border-radius: 2rem;
+  -o-border-radius: 2rem;
+}
+/* End Scroll Top */
